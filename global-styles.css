@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+body{
+    padding: 2vh 2vw;
+}
+
+/* RESPONSIVE DESIGN */
+/* Media Query for Screens Smaller than 900px */
+@media screen and (max-width: 900px) {
+    /* Global Styles */
+    body {
+        padding: 2vh 5vw;
+    }
+}
